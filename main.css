@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    color: black;
+    background: #fff;
+}
+
+header h1,
+h2 {
+    font-family: 'Righteous', sans-serif;
+    font-weight: normal;
+}
+
+header nav li {
+    font-family: 'Righteous', sans-serif;
+    font-weight: normal;
+}
+
+h1 {
+    margin-right: 10px;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 27px;
+    margin-top: 5px;
+}
+
+body {
+    font-size: 13px;
+    font-weight: normal;
+}
+
+body,
+p {
+    font-family: 'Righteous', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+header {
+    padding: 20px 0;
+    background-color: black;
+    color: #fff;
+}
+
+header h1 {
+    font-weight: normal;
+    font-size:45px;
+}
+
+header nav li  {
+    display: inline;
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+
+header nav li a {
+    color: #fff;
+    text-decoration: none;
+    color: #ff0000;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+#bras {
+    height: 65px;
+    margin-right: auto;
+}
+
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section p {
+    padding: 8px;
+}
+
+section .container p,
+section .container h2 {
+    justify-content: space-between;
+    margin-left: 20px;
+    font-weight: normal;
+}
+
+section .container h2 {
+    margin-left: 27px;
+}
+
+#history .container img {
+    height:400px;
+    width: 800px;
+    text-decoration: none;
+    margin-top: 12px;
+}
+
+#history .container h2 {
+    font-size: 40px;
+    color: #ff0000;
+    font-weight: normal;
+}
+
+#history .container p {
+    color: #ff0000;
+    font-weight: normal;
+}
+
+#title .container img {
+    height: 350px;
+    width: 400px;
+    margin-top: 70px;
+}
+
+#title .container h2 {
+    margin-right: 10px;
+    margin-top: 70px;
+    font-weight: normal;
+}
+
+.articles {
+    display: flex;
+    margin-top: 60px;
+}
+
+#title .container h2 {
+    margin-left: 35px;
+    font-weight: normal;
+}
+
+#title .container img {
+    height: 380px;
+    width: 51%;
+}
+
+#title .container h2 {
+    color: #fff;
+    height: auto;
+    width: 51%;
+    margin-top: 26px;
+    margin-left: 25px;
+    font-size: 27px;
+    font-weight: normal;
+}
+
+#title .container p {
+    color: #fff;
+    font-weight: normal;
+}
+
+#title {
+    background-color: black;
+}
+
+#title .container img {
+    height:385px;
+    width: 920px;
+    text-decoration: none;
+    margin-top: 30px;
+}
+
+#libert .container img {
+    height: 350px;
+    width: 400px;
+    margin-top: 70px;
+}
+
+#libert .container h2 {
+    margin-right: 10px;
+    margin-top: 70px;
+    font-weight: normal;
+}
+
+#libert .container h2 {
+    margin-left: 35px;
+    font-weight: normal;
+}
+
+#libert .container img {
+    height: 380px;
+    width: 51%;
+}
+
+#libert .container h2 {
+    color: #daa520;
+    height: auto;
+    width: 51%;
+    margin-top: 26px;
+    margin-left: 25px;
+    font-size: 27px;
+    font-weight: normal;
+}
+
+#libert .container p {
+    color: #daa520;
+    font-weight: normal;
+}
+
+
+#libert .container img {
+    height:385px;
+    width: 920px;
+    text-decoration: none;
+    margin-top: 26px;
+}
+
+#bi-word .container img {
+    height: 350px;
+    width: 400px;
+    margin-top: 70px;
+}
+
+#bi-word .container h2 {
+    margin-right: 10px;
+    margin-top: 70px;
+    font-weight: normal;
+}
+
+#bi-word .container h2 {
+    margin-left: 35px;
+}
+
+#bi-word .container img {
+    height: 380px;
+    width: 51%;
+}
+
+#bi-word {
+    background-color: black;
+}
+
+#bi-word .container h2 {
+    color: rgb(33, 33, 238);
+    height: auto;
+    width: 51%;
+    margin-top: 26px;
+    margin-left: 25px;
+    font-size: 27px;
+}
+
+
+#bi-word .container p {
+    color: rgb(33, 33, 238);
+}
+
+#bi-word .container img {
+    height:385px;
+    width: 920px;
+    text-decoration: none;
+    margin-top: 26px;
+}
+
+footer {
+    background-color:#fff;
+    color: black;
+    padding: 16px 0;
+    font-weight: normal;
+}
